@@ -3495,3 +3495,15 @@ section .hero {
     display: none !important;
   }
 }
+
+@media (min-width: 1200px) {
+  .navmenu ul {
+    position: static !important;
+    inset: auto !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    width: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+}
