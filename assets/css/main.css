@@ -3464,3 +3464,34 @@ section .hero {
 .starter-section {
   /* Add your styles here */
 }
+
+/* Force desktop nav to stay horizontal in the upper right */
+@media (min-width: 1200px) {
+  .navmenu {
+    display: flex;
+    align-items: center;
+  }
+
+  .navmenu ul {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    gap: 28px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .navmenu li {
+    position: static;
+  }
+
+  .navmenu a {
+    display: inline-block;
+    padding: 8px 0;
+  }
+
+  .mobile-nav-toggle {
+    display: none !important;
+  }
+}
