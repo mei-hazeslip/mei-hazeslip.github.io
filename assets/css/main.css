@@ -170,6 +170,12 @@ h6 {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
+.header .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .mobile-nav-toggle {
   display: none;
 }
@@ -178,6 +184,9 @@ h6 {
   position: static;
   width: auto;
   overflow: visible;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
 }
 
 .navmenu ul {
