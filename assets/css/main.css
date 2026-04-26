@@ -3406,3 +3406,8 @@ section .hero {
 .starter-section {
   /* Add your styles here */
 }
+
+/* Full-width background for challenge and solution sections */
+.portfolio-details .content-section .project-overview .challenge-solution.background-full-width {
+  grid-template-columns: 1fr;
+}
