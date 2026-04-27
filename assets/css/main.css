@@ -3411,3 +3411,22 @@ section .hero {
 .portfolio-details .content-section .project-overview .challenge-solution.background-full-width {
   grid-template-columns: 1fr;
 }
+
+/* Consistent text style for custom project sections */
+.portfolio-details .section-text h3,
+.portfolio-details .data-text h3,
+.portfolio-details .challenge-block h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: var(--heading-color);
+}
+
+.portfolio-details .section-text p,
+.portfolio-details .data-text p,
+.portfolio-details .challenge-block p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  margin-bottom: 1rem;
+}
