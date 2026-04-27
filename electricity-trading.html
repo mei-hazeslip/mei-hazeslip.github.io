@@ -91,8 +91,7 @@
           <div class="row">
             <div class="col-12">
               <div class="project-overview" data-aos="fade-up">
-
-                <div class="challenge-solution">
+                <div class="challenge-solution background-full-width">
                   <div class="challenge-block" data-aos="fade-up" data-aos-delay="100">
                     <h3>Background</h3>
                     <p>High-electricity-consumption companies can reduce costs by deciding how much electricity to purchase in the day-ahead market versus the real-time market. Each morning, companies submit hourly demand for the next day, but both the final day-ahead and real-time prices are still uncertain at the time of submission.</p>
@@ -118,15 +117,57 @@
 
             <div class="col-lg-6">
               <div class="data-text">
-                <h3>Data</h3>
+                <h3>Data & Features</h3>
                   <p>
                     The dataset contained hourly electricity-market observations from April to July 2025, including day-ahead forecasts, recent real-time variables, renewable generation, load, bidding space, interconnection, and price history. I engineered time features, lag features, price-difference features, ramp features, and market-balance indicators.
                   </p>
               </div>
             </div>
+          </div>
+        </div>
+
+
+        <div class="content-section">
+          <div class="row">
+            <div class="col-12">
+              <div class="project-overview" data-aos="fade-up">
+                <div class="challenge-solution background-full-width">
+                  <div class="challenge-block" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Exploratory Data Analysis</h3>
+                      <p>
+                        The target showed clear intraday structure, especially around ramping periods, suggesting that time-aware modeling was necessary.
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-section data-section" data-aos="fade-up" data-aos-delay="100">
+          <div class="row align-items-center">
+
+            <div class="col-lg-6">
+              <div class="data-text">
+                <p>
+                  The probability of “BetLowPrice” varies strongly by hour, indicating that intraday market behavior contains predictive signal.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <figure class="data-figure">
+                <img src="assets/img/projects/electricity_target-mean-by-hour.png" alt="Description of the next figure" class="img-fluid">
+                <figcaption>
+                  Figure 2. Target Mean by Hour of Day                
+                </figcaption>
+              </figure>
+            </div>
 
           </div>
         </div>
+
+        
 
         <div class="metrics-showcase" data-aos="fade-up" data-aos-delay="100">
           <div class="row align-items-center">
