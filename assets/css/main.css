@@ -3502,3 +3502,19 @@ html {
   color: var(--contrast-color) !important;
   transform: translateY(-3px);
 }
+
+/* Force bottom All Projects button to stay centered */
+.portfolio-details .project-footer .footer-navigation.project-action-links {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  gap: 1rem !important;
+  flex-wrap: wrap !important;
+}
+
+.portfolio-details .project-footer .footer-navigation.project-action-links .project-button {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
