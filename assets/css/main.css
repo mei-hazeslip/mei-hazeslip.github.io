@@ -3461,22 +3461,15 @@ html {
 }
 
 
-/* Top Code button */
+/* Center top Code button */
 .portfolio-details .top-project-actions {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -2.5rem;
-  margin-bottom: 4rem;
-}
-
-/* Center bottom project buttons */
-.portfolio-details .project-footer .footer-navigation.project-action-links {
+  width: 100% !important;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
-  gap: 1rem !important;
-  flex-wrap: wrap;
+  text-align: center !important;
+  margin-top: -2.5rem !important;
+  margin-bottom: 4rem !important;
 }
 
 /* Shared button style for Code and All Projects */
@@ -3486,6 +3479,7 @@ html {
   align-items: center !important;
   justify-content: center !important;
   gap: 0.6rem !important;
+  width: auto !important;
   padding: 0.8rem 1.6rem !important;
   border: 2px solid color-mix(in srgb, var(--default-color), transparent 85%) !important;
   border-radius: 25px !important;
@@ -3497,8 +3491,8 @@ html {
 
 /* Larger icons */
 .portfolio-details .project-button i {
-  font-size: 1.25rem !important;
-  line-height: 1;
+  font-size: 1.3rem !important;
+  line-height: 1 !important;
 }
 
 /* Hover effect */
