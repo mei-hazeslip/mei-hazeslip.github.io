@@ -135,7 +135,9 @@
                   <div class="challenge-block" data-aos="fade-up" data-aos-delay="100">
                     <h3>Exploratory Data Analysis</h3>
                       <p>
-                        The target showed clear intraday structure, especially around ramping periods, suggesting that time-aware modeling was necessary.
+                        The target showed clear intraday structure, especially around ramping periods, suggesting that time-aware modeling was necessary (Figure 2).
+                        Several market and forecast variables showed different distributions between positive and negative spread-direction outcomes, 
+                        motivating feature engineering around load, bidding space, renewable generation, and recent prices (Figure 3).
                       </p>
                     </div>
                 </div>
@@ -147,19 +149,24 @@
         <div class="content-section data-section" data-aos="fade-up" data-aos-delay="100">
           <div class="row align-items-center">
 
-            <div class="col-lg-6">
-              <div class="data-text">
-                <p>
-                  The probability of “BetLowPrice” varies strongly by hour, indicating that intraday market behavior contains predictive signal.
-                </p>
-              </div>
-            </div>
 
             <div class="col-lg-6">
               <figure class="data-figure">
-                <img src="assets/img/projects/electricity_target-mean-by-hour.png" alt="Description of the next figure" class="img-fluid">
+                <img src="assets/img/projects/electricity_target-mean-by-hour.png" alt="Figure 2: Target Mean by Hour of Day" class="img-fluid">
                 <figcaption>
                   Figure 2. Target Mean by Hour of Day                
+                </figcaption>
+              </figure>
+            </div>
+
+            
+            <div class="col-lg-6">
+              <figure class="data-figure">
+                <img src="assets/img/projects/electricity_diff-feature.png" alt="Figure 3: Difference Features by Hour of Day" class="img-fluid">
+                <figcaption>
+                  Figure 3. Selected market and forecast features grouped by hourly target class. 
+                  Differences between Target 0 and Target 1 across load, bidding space, renewable generation, and recent price variables 
+                  suggest useful predictive signals for time-aware feature engineering.             
                 </figcaption>
               </figure>
             </div>
