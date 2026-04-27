@@ -150,14 +150,13 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
 
-  position: fixed;
+  position: fixed !important;
   top: 0;
+  left: 0;
   width: 100%;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
-  body {
-    padding-top: 70px;
-  }
 }
+
 
 .header .logo {
   line-height: 1;
