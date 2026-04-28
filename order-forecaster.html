@@ -179,23 +179,39 @@
           </div>
         </div>
 
-        
+
         <div class="metrics-showcase" data-aos="fade-up" data-aos-delay="100">
           <div class="row align-items-center">
-            <div class="col-lg-6">
+            <div class="col-lg-5">
               <div class="metrics-content">
                 <h3>Impact &amp; Results</h3>
+                <p>
+                  The best cluster-specific LightGBM model improved forecasting accuracy compared with a Linear Regression benchmark.
+                  I also translated the RMSE reduction into an estimated business impact using a simplified $50-per-order-error assumption.
+                </p>
               </div>
             </div>
-            <div class="col-lg-6">
+
+            <div class="col-lg-7">
               <div class="metrics-grid">
                 <div class="metric-item" data-aos="fade-up" data-aos-delay="200">
-                  <div class="metric-number">43%</div>
-                  <div class="metric-label">RMSE Reduction compared with benchmark</div>
+                  <div class="metric-number">668 → 383</div>
+                  <div class="metric-label">RMSE reduction for Cluster 1</div>
                 </div>
+
                 <div class="metric-item" data-aos="fade-up" data-aos-delay="250">
-                  <div class="metric-number">$5M</div>
-                  <div class="metric-label">Annual Cost Saving</div>
+                  <div class="metric-number">43%</div>
+                  <div class="metric-label">Lower RMSE than Linear Regression benchmark</div>
+                </div>
+
+                <div class="metric-item" data-aos="fade-up" data-aos-delay="300">
+                  <div class="metric-number">2</div>
+                  <div class="metric-label">Warehouse clusters identified using DTW similarity</div>
+                </div>
+
+                <div class="metric-item" data-aos="fade-up" data-aos-delay="350">
+                  <div class="metric-number">~$5M</div>
+                  <div class="metric-label">Estimated annual cost savings under simplified assumptions</div>
                 </div>
               </div>
             </div>
@@ -215,7 +231,7 @@
                   allowfullscreen>
                 </iframe>
               </div>
-              
+
               <p class="video-caption">
                 Demo video showing the project deployment and usage.
               </p>
@@ -224,53 +240,81 @@
           </div>
         </div>
 
-
+        
         <div class="technology-stack" data-aos="fade-up" data-aos-delay="100">
           <div class="row">
             <div class="col-lg-3">
               <h3>Technology Stack</h3>
             </div>
+
             <div class="col-lg-9">
               <div class="tech-categories">
+
                 <div class="tech-category" data-aos="fade-up" data-aos-delay="150">
-                  <div class="category-title">Programming & Environment</div>
+                  <div class="category-title">Programming &amp; Environment</div>
                   <div class="tech-list">
                     <span class="tech-item">Python</span>
                     <span class="tech-item">Jupyter Notebook</span>
                     <span class="tech-item">Git/GitHub</span>
                   </div>
                 </div>
+
                 <div class="tech-category" data-aos="fade-up" data-aos-delay="200">
-                  <div class="category-title">Data Processing</div>
+                  <div class="category-title">Data Processing &amp; Feature Engineering</div>
                   <div class="tech-list">
                     <span class="tech-item">pandas</span>
                     <span class="tech-item">NumPy</span>
+                    <span class="tech-item">Calendar Features</span>
+                    <span class="tech-item">Holiday Features</span>
+                    <span class="tech-item">Cyclic Encoding</span>
                   </div>
                 </div>
+
                 <div class="tech-category" data-aos="fade-up" data-aos-delay="250">
-                  <div class="category-title">Visualization & EDA</div>
+                  <div class="category-title">Visualization &amp; EDA</div>
                   <div class="tech-list">
                     <span class="tech-item">Matplotlib</span>
                     <span class="tech-item">Seaborn</span>
+                    <span class="tech-item">Time-Series Trend Analysis</span>
+                    <span class="tech-item">Categorical Feature Analysis</span>
                   </div>
                 </div>
-                <div class="tech-category" data-aos="fade-up" data-aos-delay="250">
-                  <div class="category-title">Machine Learning</div>
+
+                <div class="tech-category" data-aos="fade-up" data-aos-delay="300">
+                  <div class="category-title">Clustering &amp; Similarity Analysis</div>
+                  <div class="tech-list">
+                    <span class="tech-item">Dynamic Time Warping</span>
+                    <span class="tech-item">fastdtw</span>
+                    <span class="tech-item">Agglomerative Clustering</span>
+                    <span class="tech-item">Silhouette Score</span>
+                  </div>
+                </div>
+
+                <div class="tech-category" data-aos="fade-up" data-aos-delay="350">
+                  <div class="category-title">Machine Learning Models</div>
                   <div class="tech-list">
                     <span class="tech-item">scikit-learn</span>
-                    <span class="tech-item">LightGBM</span>
+                    <span class="tech-item">Linear Regression</span>
+                    <span class="tech-item">Random Forest</span>
+                    <span class="tech-item">Gradient Boosting</span>
                     <span class="tech-item">XGBoost</span>
                     <span class="tech-item">CatBoost</span>
-                    <span class="tech-item">Logistic Regression</span>
+                    <span class="tech-item">LightGBM</span>
                   </div>
                 </div>
-                <div class="tech-category" data-aos="fade-up" data-aos-delay="250">
-                  <div class="category-title">Evaluation</div>
+
+                <div class="tech-category" data-aos="fade-up" data-aos-delay="400">
+                  <div class="category-title">Evaluation &amp; Business Impact</div>
                   <div class="tech-list">
-                    <span class="tech-item">Rolling Month-Based Validation</span>
-                    <span class="tech-item">Time-Series Split</span>
+                    <span class="tech-item">Time-Based Train/Test Split</span>
+                    <span class="tech-item">RMSE</span>
+                    <span class="tech-item">MAPE</span>
+                    <span class="tech-item">R² Score</span>
+                    <span class="tech-item">Benchmark Comparison</span>
+                    <span class="tech-item">Cost-Saving Estimate</span>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
