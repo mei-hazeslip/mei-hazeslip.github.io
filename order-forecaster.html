@@ -101,54 +101,7 @@
           </a>
         </div>
 
-        
-        <div class="visual-showcase" data-aos="zoom-in" data-aos-delay="100">
-          <div class="main-visual">
-            <div class="portfolio-details-slider swiper init-swiper">
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 30000
-                  },
-                  "effect": "creative",
-                  "creativeEffect": {
-                    "prev": {
-                      "shadow": false,
-                      "translate": ["-120%", 0, -500]
-                    },
-                    "next": {
-                      "shadow": false,
-                      "translate": ["120%", 0, -500]
-                    }
-                  },
-                  "slidesPerView": 1,
-                  "navigation": {
-                    "nextEl": ".swiper-button-next",
-                    "prevEl": ".swiper-button-prev"
-                  }
-                }
-              </script>
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="assets/img/projects/order_14-day-rolling-avg.png" alt="Project showcase" class="img-fluid" loading="lazy">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/projects/order_dtw.png" alt="Project showcase" class="img-fluid" loading="lazy">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/projects/order_dtw_group.png" alt="Project showcase" class="img-fluid" loading="lazy">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/projects/order_cluster1.png" alt="Project showcase" class="img-fluid" loading="lazy">
-                </div>
-              </div>
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
-            </div>
-          </div>
-        </div>
+      
 
         <div class="content-section">
           <div class="row">
@@ -165,6 +118,16 @@
           </div>
         </div>
 
+        <figure class="project-figure" data-aos="fade-up" data-aos-delay="100">
+          <img src="assets/img/projects/order_14-day-rolling-avg.png"
+              alt="14-day rolling average of orders by warehouse"
+              class="img-fluid"
+              loading="lazy">
+          <figcaption>
+            Daily order volume varies strongly across warehouses. The 14-day rolling average highlights seasonal demand patterns and holiday-related spikes while reducing daily noise.
+          </figcaption>
+        </figure>
+
         <div class="content-section">
           <div class="row">
             <div class="col-12">
@@ -178,6 +141,30 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+
+
+        
+        <div class="content-section data-section" data-aos="fade-up" data-aos-delay="100">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <figure class="data-figure">
+                <img src="assets/img/projects/order_dtw_group.png" alt="Figure 3: Warehouse Groups" class="img-fluid">
+                <figcaption>
+                  Figure 2. Warehouses were grouped using Dynamic Time Warping similarity to capture similar order patterns. This supported the use of cluster-specific forecasting models.
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-6">
+              <div class="data-text">
+                <figure class="data-figure">
+                  <img src="assets/img/projects/order_dtw_clustering.png" alt="Figure 4: DTW Clustering" class="img-fluid">
+                  <figcaption>
+                    Figure 3. The DTW-based clustering separated Prague_1 and Brno_1 from the other warehouses, suggesting that cluster-specific forecasting models may better capture different demand patterns.
+                  </figcaption>
+                </figure>
             </div>
           </div>
         </div>
@@ -201,7 +188,15 @@
           </div>
         </div>
         
-        <!-- order_14-day-rolling-avg -->
+        <figure class="project-figure" data-aos="fade-up" data-aos-delay="100">
+          <img src="assets/img/projects/order_cluster1.png"
+              alt="Cluster 1 RMSE comparison between benchmark and LightGBM"
+              class="img-fluid"
+              loading="lazy">
+          <figcaption>
+            Figure 4. For Cluster 1, the LightGBM model reduced RMSE by 43% compared with the Linear Regression benchmark, showing the value of feature engineering and cluster-specific modeling.
+          </figcaption>
+        </figure>
 
         
         <div class="metrics-showcase" data-aos="fade-up" data-aos-delay="100">
