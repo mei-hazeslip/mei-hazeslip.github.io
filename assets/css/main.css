@@ -3520,5 +3520,11 @@ html {
 }
 
 .portfolio-details .modeling-section {
-  margin-bottom: 7rem;
+  margin-bottom: 9rem;
+}
+
+.portfolio-details .data-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
