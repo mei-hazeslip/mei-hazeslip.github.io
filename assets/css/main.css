@@ -3522,3 +3522,43 @@ html {
 .portfolio-details .modeling-section {
   margin-bottom: 9rem;
 }
+
+
+
+/* Center and enlarge YouTube project video */
+.portfolio-details .video-section {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+  text-align: center;
+}
+
+.portfolio-details .video-section .row {
+  justify-content: center !important;
+}
+
+.portfolio-details .project-video-wrapper.youtube-video {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.portfolio-details .project-video-wrapper.youtube-video iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+.portfolio-details .video-caption {
+  max-width: 900px;
+  margin: 0.75rem auto 0;
+  text-align: center;
+  font-size: 0.95rem;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+}
