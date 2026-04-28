@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -81,18 +82,18 @@
         <div class="project-hero">
           <div class="hero-content" data-aos="fade-up">
             <div class="project-category">Retail Forecast</div>
-            <h1 class="project-title">Order Forecaster</h1>
+            <h1 class="project-title">Online Sporting Goods Forecaster</h1>
           </div>
         </div>
 
         <div class="top-project-actions" data-aos="fade-up" data-aos-delay="100">
           <p class="project-meta">
-            <strong>Team project</strong> with Xuelian Liu (DS), Tianzhu Qin (DS), Wenbo Ma (DS), and Terry Lou (DS).
+            <strong>Team project</strong> with John Rader (PM), Mary Bi (PM), Desheng Lu (PM), Mike Eberhardt (UI/UX).
           </p>
         </div>
 
         <div class="top-project-actions" data-aos="fade-up" data-aos-delay="100">
-          <a href="https://github.com/mei-hazeslip/Order-Forecaster"
+          <a href="https://github.com/DemandForecasterTeam/whole_sale_repository"
             class="project-button code-link"
             target="_blank"
             rel="noopener noreferrer">
@@ -101,80 +102,23 @@
           </a>
         </div>
 
-      
 
-        
-
-        <div class="content-section data-section" data-aos="fade-up" data-aos-delay="100">
-          <div class="row align-items-center">
-
-            <div class="col-lg-6">
-              <figure class="data-figure">
-                <img src="assets/img/projects/order_14-day-rolling-avg.png" alt="Figure 1: rolling average" class="img-fluid">
-                <figcaption>
-                  Figure 1. Daily order volume varies strongly across warehouses. The 14-day rolling average highlights seasonal demand patterns and holiday-related spikes while reducing daily noise.
-                </figcaption>
-              </figure>
-            </div>
-
-            <div class="col-lg-6">
-              <div class="data-text">
-                <h3>Goal</h3>
-                  <p>
-                    Built a machine learning forecasting model to predict daily grocery delivery orders across multiple warehouses, helping reduce overstock, stockouts, and operational cost.
-                  </p>
+        <div class="content-section video-section" data-aos="fade-up" data-aos-delay="100">
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="project-video-wrapper youtube-video">
+                <iframe
+                  src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                  title="Project demo video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
               </div>
-            </div>
 
+              <p class="video-caption">
+                Demo video showing the forecasting workflow and project interface.
+              </p>
 
-          </div>
-        </div>
-
-
-        
-        <div class="content-section data-section" data-aos="fade-up" data-aos-delay="100">
-          <div class="row align-items-center">
-
-            <div class="col-lg-6">
-              <div class="data-text">
-                <h3>What I did</h3>
-                <p>
-                  Analyzed historical warehouse order patterns, engineered time/holiday/seasonality features, clustered warehouses using DTW-based similarity, and compared Linear Regression, Random Forest, XGBoost, Gradient Boosting, CatBoost, and LightGBM models.
-                </p>
-              </div>
-            </div>
-            
-            <div class="col-lg-6">
-              <figure class="data-figure">
-                <img src="assets/img/projects/order_dtw_group.png" alt="Figure 2: Warehouse Groups" class="img-fluid">
-                <figcaption>
-                  Figure 2. Warehouses were grouped using Dynamic Time Warping similarity to capture similar order patterns. This supported the use of cluster-specific forecasting models.
-                </figcaption>
-              </figure>
-            </div>
-
-
-          </div>
-        </div>
-
-
-        <div class="content-section data-section" data-aos="fade-up" data-aos-delay="100">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <figure class="data-figure">
-                <img src="assets/img/projects/order_cluster1.png" alt="Figure 3: Cluster 1 Forecasting" class="img-fluid">
-                <figcaption>
-                  Figure 3. For Cluster 1, the LightGBM model reduced RMSE by 43% compared with the Linear Regression benchmark, showing the value of feature engineering and cluster-specific modeling.
-                </figcaption>
-              </figure>
-            </div>
-            <div class="col-lg-6">
-              <div class="data-text">
-                <h3>Result</h3>
-                  <p>
-                    The best LightGBM model reduced RMSE by 43% compared with a Linear Regression benchmark for one warehouse cluster, corresponding to an estimated $5M annual cost saving under a simplified $50-per-order business assumption.
-                  </p>
-              </div>
             </div>
           </div>
         </div>
