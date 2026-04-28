@@ -85,9 +85,11 @@
           </div>
         </div>
 
-        <p class="project-meta">
-          <strong>Team project</strong> with Xuelian Liu, Tianzhu Qin, Wenbo Ma, and Terry Lou.
-        </p>
+        <div class="top-project-actions" data-aos="fade-up" data-aos-delay="100">
+          <p class="project-meta">
+            <strong>Team project</strong> with Xuelian Liu, Tianzhu Qin, Wenbo Ma, and Terry Lou.
+          </p>
+        </div>
 
         <div class="top-project-actions" data-aos="fade-up" data-aos-delay="100">
           <a href="https://github.com/mei-hazeslip/Order-Forecaster"
@@ -97,6 +99,52 @@
             <i class="bi bi-github"></i>
             <span>Code</span>
           </a>
+        </div>
+
+        
+        <div class="visual-showcase" data-aos="zoom-in" data-aos-delay="100">
+          <div class="main-visual">
+            <div class="portfolio-details-slider swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 30000
+                  },
+                  "effect": "creative",
+                  "creativeEffect": {
+                    "prev": {
+                      "shadow": false,
+                      "translate": ["-120%", 0, -500]
+                    },
+                    "next": {
+                      "shadow": false,
+                      "translate": ["120%", 0, -500]
+                    }
+                  },
+                  "slidesPerView": 1,
+                  "navigation": {
+                    "nextEl": ".swiper-button-next",
+                    "prevEl": ".swiper-button-prev"
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/img/projects/order_14-day-rolling-avg.png" alt="Project showcase" class="img-fluid" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/projects/order_dtw.png" alt="Project showcase" class="img-fluid" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/projects/order_dtw_group.png" alt="Project showcase" class="img-fluid" loading="lazy">
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
         </div>
 
         <div class="content-section">
@@ -150,6 +198,7 @@
           </div>
         </div>
         
+        <!-- order_14-day-rolling-avg -->
 
         
         <div class="metrics-showcase" data-aos="fade-up" data-aos-delay="100">

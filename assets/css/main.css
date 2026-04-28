@@ -3518,3 +3518,7 @@ html {
   margin-left: auto !important;
   margin-right: auto !important;
 }
+
+.portfolio-details .modeling-section {
+  margin-bottom: 7rem;
+}
