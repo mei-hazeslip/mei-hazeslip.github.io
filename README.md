@@ -1,4 +1,5 @@
-# mei-hazeslip.github.io
+# Personal Website
+https://mei-hazeslip.github.io
 
 Personal portfolio website for Mei Hazeslip, featuring selected projects, background, and contact information.
 
