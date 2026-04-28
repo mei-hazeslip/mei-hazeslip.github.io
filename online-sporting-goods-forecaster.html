@@ -125,6 +125,95 @@
         </div>
 
 
+        <div class="content-section">
+          <div class="row">
+            <div class="col-12">
+              <div class="project-overview" data-aos="fade-up">
+                <div class="challenge-solution background-full-width">
+                  <div class="challenge-block" data-aos="fade-up" data-aos-delay="100">
+
+                    <h3>Project Overview</h3>
+                    <p>
+                      Built a machine-learning workflow to forecast order quantity for an online sporting-goods wholesale and retail dataset. The goal was to estimate future demand by time period and product category, helping support inventory planning and reduce costs related to inaccurate demand forecasts.
+                    </p>
+                    
+                    <h3>Business Problem</h3>
+                    <p>
+                      Retail demand can vary across product categories, seasons, and price segments. Poor forecasting can lead to overstocking, stockouts, and operational inefficiencies. This project compares multiple regression models to determine whether machine learning can improve demand forecasting over a Linear Regression benchmark.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        
+        <div class="content-section data-section" data-aos="fade-up" data-aos-delay="100">
+          <div class="row align-items-center">
+
+            <div class="col-lg-6">
+              <figure class="data-figure">
+                <img src="assets/img/portfolio/demand_pie_category.png" alt="Figure 1: category distribution" class="img-fluid">
+                <figcaption>
+                  Figure 1. Product category distribution: The dataset is dominated by Clothes, Assorted Sports Articles, and Children Sports, while several smaller categories have limited sample sizes.
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-lg-6">
+              <figure class="data-figure">
+                <img src="assets/img/portfolio/demand_monthly.png" alt="Figure 2: monthly demand" class="img-fluid">
+                <figcaption>
+                  Figure 2. Monthly demand by product category: High-volume categories such as Clothes, Assorted Sports Articles, and Children Sports show recurring seasonal peaks, while smaller categories remain relatively stable at lower order volumes.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="content-section">
+          <div class="row">
+            <div class="col-12">
+              <div class="project-overview" data-aos="fade-up">
+                <div class="challenge-solution background-full-width">
+                  <div class="challenge-block" data-aos="fade-up" data-aos-delay="100">
+
+                    <h3>What I Did</h3>
+                    <p>
+                      I cleaned and merged order records with product-supplier information, engineered time-based and product-level features, and analyzed demand patterns across months and product categories. I then trained and compared Linear Regression, Gradient Boosting, LightGBM, CatBoost, XGBoost, and Random Forest models using MAE, MSE, RMSE, and R².
+                    </p>
+                    
+                    <h3>Results & Impact</h3>
+                    <p>
+                      XGB Regression was the best-performing model, reducing test RMSE from 104 orders with Linear Regression to 24.6 orders. This represents a 76% reduction in forecast error. Assuming each unit of forecast error corresponds to approximately $25 in business cost, the model corresponds to an estimated $23.8K in annual savings.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-section centered-image-section" data-aos="fade-up" data-aos-delay="100">
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+
+              <figure class="centered-project-figure">
+                <img src="assets/img/portfolio/demand_result_table.png" 
+                  alt="Model performance comparison" 
+                  class="img-fluid">
+                <figcaption>
+                  Table 1. Model comparison results. XGB Regression produced the strongest test performance.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
         
         <div class="metrics-showcase" data-aos="fade-up" data-aos-delay="100">
           <div class="row align-items-center">
