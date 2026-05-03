@@ -86,7 +86,6 @@
           </div>
         </div>
 
-
         <div class="top-project-actions" data-aos="fade-up" data-aos-delay="100">
           <a href="https://github.com/mei-hazeslip/electricity-price-direction-api"
             class="project-button code-link"
@@ -94,6 +93,22 @@
             rel="noopener noreferrer">
             <i class="bi bi-github"></i>
             <span>Code</span>
+          </a>
+
+          <a href="https://mei-hazeslip-electricity-price-direction-api.hf.space/"
+            class="project-button code-link"
+            target="_blank"
+            rel="noopener noreferrer">
+            <i class="bi bi-rocket-takeoff"></i>
+            <span>Live API</span>
+          </a>
+
+          <a href="https://mei-hazeslip-electricity-price-direction-api.hf.space/docs"
+            class="project-button code-link"
+            target="_blank"
+            rel="noopener noreferrer">
+            <i class="bi bi-file-earmark-code"></i>
+            <span>API Docs</span>
           </a>
         </div>
 
@@ -201,6 +216,31 @@
           </div>
         </div>
 
+
+        <div class="content-section">
+          <div class="row">
+            <div class="col-12">
+              <div class="project-overview" data-aos="fade-up">
+                <div class="challenge-solution background-full-width">
+                  <div class="section-text" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Deployment & API Development</h3>
+                    <p>
+                      I refactored the original notebook workflow into a deployable machine-learning API. 
+                      The project now includes reusable Python modules for data transformation, feature engineering, 
+                      model training, batch prediction, and SQLite-based prediction logging.
+                    </p>
+                    <p>
+                      The final LightGBM model is served through a FastAPI application deployed on Hugging Face Spaces 
+                      with Docker. Users can upload a CSV file through the interactive API documentation, receive prediction 
+                      probability summaries, and view recent prediction logs through a SQLite-backed endpoint.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="content-section results-section">
           <div class="row">
             <div class="col-12">
@@ -209,7 +249,9 @@
                 <div class="section-text" data-aos="fade-up" data-aos-delay="100">
                   <h3>Results</h3>
                   <p>
-                    The best LightGBM feature set achieved approximately 0.60 mean validation ROC-AUC across rolling monthly splits, improving over the 0.50 no-skill baseline. A final rank-blended LightGBM prediction was used to produce probability-based submissions.
+                    In the original competition workflow, rank-based blending improved the public leaderboard score to 0.622 ROC-AUC. For deployment, I packaged a streamlined LightGBM model to keep the API lightweight and reproducible.
+
+                    The best LightGBM feature set achieved approximately 0.60 mean validation ROC-AUC across rolling monthly splits, improving over the 0.50 no-skill baseline. The final deployed version serves a LightGBM classifier through FastAPI and returns probability-based predictions for uploaded batch inputs.
                   </p>
                 </div>
                 </div>
@@ -236,6 +278,10 @@
                 <div class="metric-item" data-aos="fade-up" data-aos-delay="250">
                   <div class="metric-number">24%</div>
                   <div class="metric-label">Improved performance over baseline</div>
+                </div>
+                <div class="metric-item" data-aos="fade-up" data-aos-delay="300">
+                  <div class="metric-number">3</div>
+                  <div class="metric-label">API endpoints: health check, prediction, and SQLite logs</div>
                 </div>
               </div>
             </div>
@@ -291,6 +337,35 @@
                   </div>
                 </div>
               </div>
+              <div class="tech-category" data-aos="fade-up" data-aos-delay="250">
+                <div class="category-title">API & Deployment</div>
+                <div class="tech-list">
+                  <span class="tech-item">FastAPI</span>
+                  <span class="tech-item">Uvicorn</span>
+                  <span class="tech-item">Docker</span>
+                  <span class="tech-item">Hugging Face Spaces</span>
+                </div>
+              </div>
+
+              <div class="tech-category" data-aos="fade-up" data-aos-delay="250">
+                <div class="category-title">Database & Logging</div>
+                <div class="tech-list">
+                  <span class="tech-item">SQLite</span>
+                  <span class="tech-item">SQL</span>
+                  <span class="tech-item">Prediction Logging</span>
+                </div>
+              </div>
+
+              <div class="tech-category" data-aos="fade-up" data-aos-delay="250">
+                <div class="category-title">Software Engineering</div>
+                <div class="tech-list">
+                  <span class="tech-item">Modular Python</span>
+                  <span class="tech-item">Git LFS</span>
+                  <span class="tech-item">REST API</span>
+                  <span class="tech-item">Model Serving</span>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
