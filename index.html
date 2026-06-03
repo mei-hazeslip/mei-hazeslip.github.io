@@ -48,9 +48,11 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#portfolio">Portfolio</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
         </ul>
       </nav>
 
@@ -60,92 +62,25 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row align-items-center gx-5 gy-5">
-
-          <div class="col-lg-7">
-            <div class="intro" data-aos="fade-right" data-aos-delay="150">
-              <div class="eyebrow d-inline-flex align-items-center gap-2 mb-3">
-                <span class="dot"></span>
-                <span class="text">Data Scientist & Researcher</span>
-              </div>
-
-              <h1 class="display-heading mb-3">
-                Mei (Chien) Hazeslip
-              </h1>
-
-              <p class="lead mb-4">
-                Hello! Welcome to my portfolio. I’m fascinated by how much hidden information lives inside messy data. My work focuses on transforming noisy signals and complex datasets into insights through data analysis, machine learning, and visualization.
-              </p>
-
-              <div class="cta-group d-flex flex-wrap align-items-center gap-3" data-aos="zoom-in" data-aos-delay="250">
-                <a href="#portfolio" class="btn btn-ghost">
-                  View Selected Work
-                  <i class="bi bi-arrow-right ms-2"></i>
-                </a>
-                <a href="#contact" class="link-underline">
-                  Get in touch
-                  <i class="bi bi-envelope ms-2"></i>
-                </a>
-                  <a href="assets/files/MEI_HAZESLIP_Resume.pdf"
-                    class="link-underline"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    Resume
-                    <i class="bi bi-file-earmark-text ms-2"></i>
-                  </a>
-              </div>
-
-              <div class="meta mt-4 d-flex flex-wrap align-items-center gap-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="meta-item d-flex align-items-center gap-2">
-                  <i class="bi bi-geo-alt"></i>
-                  <span>Little Rock, AR</span>
-                </div>
-                <!--
-                <div class="meta-item d-flex align-items-center gap-2">
-                  <i class="bi bi-circle"></i>
-                  <span>Available for freelance</span>
-                </div>
-                -->
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-5">
-            <figure class="portrait-wrap position-relative" data-aos="fade-left" data-aos-delay="200">
-              <img src="assets/img/profile/profile-1.png" alt="Profile Portrait" class="img-fluid portrait-img">
-              <figcaption class="visually-hidden">Minimal portrait preview</figcaption>
-
-              <div class="badge note" data-aos="zoom-in" data-aos-delay="300">
-                <i class="bi bi-star"></i>
-                <span>5+ Years in Research and Data Science</span>
-              </div>
-            </figure>
-          </div>
-
-        </div>
-
+    <section id="hero" class="hero section simple-hero">
+      <div class="container text-center">
+        <h1 class="display-heading mb-3">Mei (Chien) Hazeslip</h1>
+        <div class="hero-divider"></div>
+        <p class="lead mx-auto mb-0">
+          Hello! Welcome to my portfolio. I use data analysis, machine learning, and visualization to turn noisy signals and complex datasets into clear insights.
+        </p>
       </div>
-
     </section><!-- /Hero Section -->
 
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container">
 
         <div class="isotope-layout" data-default-filter="*" data-layout="fitRows" data-sort="original-order">
 
-          <div class="portfolio-filters-wrapper" data-aos="fade-up" data-aos-delay="100">
+          <div class="portfolio-filters-wrapper">
             <ul class="portfolio-filters isotope-filters">
               <li data-filter="*" class="filter-active">All Projects</li>
               <li data-filter=".filter-electricity">Electricity Trading</li>
@@ -154,7 +89,7 @@
             </ul>
           </div>
 
-          <div class="row gy-4 portfolio-grid isotope-container" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-4 portfolio-grid isotope-container">
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-electricity">
               <div class="portfolio-card">
@@ -339,61 +274,46 @@
 
 
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section light-background">
+    <!-- About Section -->
+    <section id="about" class="about-split section">
+      <div class="container">
+        <div class="row align-items-center justify-content-center gy-5">
+          <div class="col-lg-4 col-md-5 text-center">
+            <img src="assets/img/profile/profile-1.png" alt="Profile portrait" class="about-profile-img img-fluid">
+          </div>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row align-items-stretch">
-          <div class="col-lg-4 mx-auto" data-aos="fade-up" data-aos-delay="200">
-            <div class="contact-sidebar">
-              <div class="contact-header">
-                <h3>Get in Touch</h3>
-              </div>
-                <div class="contact-method" data-aos="fade-in" data-aos-delay="400">
-                  <div class="contact-icon">
-                    <i class="bi bi-envelope"></i>
-                  </div>
-                  <div class="contact-details">
-                    <span class="method-label">Email</span>
-                    <p>amayaaaa24@gmail.com</p>
-                  </div>
-                </div>
-
-                <div class="contact-method" data-aos="fade-in" data-aos-delay="450">
-                  <div class="contact-icon">
-                    <i class="bi bi-telephone"></i>
-                  </div>
-                  <div class="contact-details">
-                    <span class="method-label">Phone</span>
-                    <p>+1 (385) 450-9670</p>
-                  </div>
-                </div>
-
-                <div class="contact-method" data-aos="fade-in" data-aos-delay="500">
-                  <div class="contact-icon">
-                    <i class="bi bi-linkedin"></i>
-                  </div>
-                  <div class="contact-details">
-                    <span class="method-label">LinkedIn</span>
-                    <p><a href="https://www.linkedin.com/in/mei-chien/" target="_blank">linkedin.com/in/mei-chien</a></p>
-                  </div>
-                </div>
-                <!--
-                <div class="contact-method" data-aos="fade-in" data-aos-delay="500">
-                  <div class="contact-icon">
-                    <i class="bi bi-clock"></i>
-                  </div>
-                  <div class="contact-details">
-                    <span class="method-label">Hours</span>
-                    <p>Monday - Friday: 9AM - 6PM<br>Saturday: 10AM - 4PM</p>
-                  </div>
-                </div>
-                -->
-              </div>
-
+          <div class="col-lg-6 col-md-7">
+            <div class="about-copy">
+              <h2>About Me</h2>
+              <div class="section-divider"></div>
+              <p>
+                I am a geophysics Ph.D. candidate at Rice University and a data scientist interested in machine learning, time-series analysis, and data visualization.
+              </p>
+              <p>
+                My research uses seismic signals to image Earth's structure and understand earthquake processes, while my data science projects focus on predictive modeling, forecasting, and practical decision support.
+              </p>
+              <p>
+                I enjoy turning noisy, complex datasets into clear stories, reproducible workflows, and visual explanations that help people make better decisions.
+              </p>
             </div>
           </div>
         </div>
+      </div>
+    </section><!-- /About Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-work section">
+      <div class="container text-center">
+        <h2>Contact</h2>
+        <div class="contact-social-links d-flex justify-content-center align-items-center flex-wrap">
+          <a href="mailto:amayaaaa24@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+          <a href="https://www.linkedin.com/in/mei-chien/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="https://scholar.google.com/citations?user=LyfPsKEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a>
+          <a href="assets/files/MEI_HAZESLIP_Resume.pdf" target="_blank" rel="noopener noreferrer" aria-label="Resume"><i class="bi bi-file-earmark-text-fill"></i></a>
+        </div>
+        <p class="contact-note mb-0">
+          Email: <a href="mailto:amayaaaa24@gmail.com">amayaaaa24@gmail.com</a>
+        </p>
       </div>
     </section><!-- /Contact Section -->
 
