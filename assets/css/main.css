@@ -3921,7 +3921,7 @@ html {
   color: var(--accent-color);
 }
 
-.publications-hero .hero-divider {
+.publications-divider {
   width: 90px;
   height: 2px;
   background: var(--accent-color);
@@ -3929,7 +3929,7 @@ html {
   position: relative;
 }
 
-.publications-hero .hero-divider::after {
+.publications-divider::before {
   content: "";
   width: 9px;
   height: 9px;
