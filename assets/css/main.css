@@ -3921,6 +3921,26 @@ html {
   color: var(--accent-color);
 }
 
+.publications-hero .hero-divider {
+  width: 90px;
+  height: 2px;
+  background: var(--accent-color);
+  margin: 18px auto 22px;
+  position: relative;
+}
+
+.publications-hero .hero-divider::after {
+  content: "";
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--accent-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @media (max-width: 768px) {
   .index-page .navmenu ul,
   .publications-page .navmenu ul,
